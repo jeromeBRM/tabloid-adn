@@ -1,0 +1,26 @@
+@font-face {
+ font-family: "Segoe UI";
+ src: url("src/fonts/Segoe UI.ttf") format("ttf"),
+      url("src/fonts/Segoe UI Bold.ttf") format("ttf");
+}
+
+body {
+	font-family: "consolas";
+	font-weight: 100;
+	margin: 0;
+	background-color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div {
+	margin: 42px;
+	width: 400px;
+	background-color: white;
+	overflow-wrap: break-word;
+	padding: 32px;
+	font-size: 12px;
+	box-shadow: 0px 0px 30px #00000003;
+}
